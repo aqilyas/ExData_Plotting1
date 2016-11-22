@@ -4,8 +4,7 @@ This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
 Learning Repository</a>, a popular repository for machine learning
 datasets. In particular, we will be using the "Individual household
-electric power consumption Data Set" which I have made available on
-the course web site:
+electric power consumption Data Set" available here:
 
 
 * <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20Mb]
@@ -39,22 +38,15 @@ web site</a>:
 
 
 
-When loading the dataset into R, please consider the following:
 
-* The dataset has 2,075,259 rows and 9 columns. First
-calculate a rough estimate of how much memory the dataset will require
-in memory before reading into R. Make sure your computer has enough
-memory (most modern computers should be fine).
+* The dataset has 2,075,259 rows and 9 columns. (make sure you have enough memory)
 
 * We will only be using data from the dates 2007-02-01 and
 2007-02-02. One alternative is to read the data from just those dates
 rather than reading in the entire dataset and subsetting to those
 dates.
 
-* You may find it useful to convert the Date and Time variables to
-Date/Time classes in R using the `strptime()` and `as.Date()`
-functions.
-
+* the Date and Time variables were converted to Date/Time classes in R for easy manipulation.
 * Note that in this dataset missing values are coded as `?`.
 
 
@@ -65,7 +57,7 @@ varies over a 2-day period in February, 2007. Your task is to
 reconstruct the following plots below, all of which were constructed
 using the base plotting system.
 
-First you will need to fork and clone the following GitHub repository:
+First we fork and clone the following GitHub repository:
 [https://github.com/rdpeng/ExData_Plotting1](https://github.com/rdpeng/ExData_Plotting1)
 
 
